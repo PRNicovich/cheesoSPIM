@@ -138,6 +138,9 @@ the filter bone connects to the cylindrical lens bone
 the cylindrical lens bone connects to the cannon lens
 and the cannon lens makes the light sheet
 
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/cheesoSPIMopticalDiagram.jpg" width="350">
+Optical diagram of the cheesoSPIM. A laser beam is filtered expanded by a cylindrical lens and a sheet generated with the DSLR lens. The fluorescence from the specimen excited by the sheet is filtered and collected by a telecentric lens and webcam. 
+
 - Excitation optics
  
 	The laser head is screwed to a laser-cut base to hold it at the chosen beam height. The mount screws are adjusted to level the beam relative to the breadboard. The excitation filter and cylindrical lens are glued into laser-cut holders held in front of the laser output with double-sided tape and wire.  The output line should remain centered at the beam height and be perpendicular to the breadboard. Adjust the cylindrical lens to achieve this. The laser assembly is placed in front of the DSLR lens (in its own laser-cut holder) such that the laser line is centered in the lens aperture. A light sheet should exit the front of the lens along the lens axis.  The beam waist of this sheet can be positioned using the zoom and focus of the DSLR lens. The cylindrical lens assembly is the correct distance from the back of the DSLR lens when the beam enters and exits the beam waist at the same angle. 
@@ -185,15 +188,32 @@ and the cannon lens makes the light sheet
 
 - Protocol 
 
-	Balsa wood sheets 3/32" (~2 mm) thick (4" wide x 36" long) were purchased from the typical display rack at a local art supply store. Pieces ~1 cm x 2 cm were cut from this stock. The pieces were cleared in a 1% sodium chlorite solution in 10% acetic acid at 80 deg C overnight. This bleached the wood from natural to white in color. Bleached pieces were dehydrated and delipidated in 40% ethanol, 99% isopropanol, and acetone for 1-24 hrs each step. These pieces were carried through attempts at index matching with glycerol (wrong index), tung oil (fluorescent), and anisole (close but sub-optimal). Benzyl alcohol produced pieces the most optically clear of any the fluids tested after a couple hours of immersion in this fluid. All pieces were immersed in benzyl alcohol to clear and imaged in this fluid. Specimens were mounted using UV-activated adhesive (EDSRDXS UV bonding glue) directly to the shaft of the theta motor. 
+	Balsa wood sheets 3/32" (~2 mm) thick (4" wide x 36" long) were purchased from the typical display rack at a local art supply store. Pieces ~1 cm x 2 cm were cut from this stock. The pieces were cleared in a 1% sodium chlorite solution in 10% acetic acid at 80 deg C overnight. This bleached the wood from natural to white in color. Bleached pieces were dehydrated and delipidated in 40% ethanol, 99% isopropanol, and acetone for 1-24 hrs each step. These pieces were carried through attempts at index matching with glycerol (wrong index), [tung oil](https://github.com/PRNicovich/cheesoSPIM/blob/main/output/tungOil.jpg) (fluorescent), and anisole (close but sub-optimal). Benzyl alcohol produced pieces the most optically clear of any the fluids tested after a couple hours of immersion in this fluid. All pieces were immersed in benzyl alcohol to clear and imaged in this fluid. Specimens were mounted using UV-activated adhesive (EDSRDXS UV bonding glue) directly to the shaft of the theta motor. 
 
 - Remarks
 
 	Pieces the full thickness tested (> 2 mm) were successfully cleared using this method. Benzyl alcohol is not a perfect match for the resulting refractive index of the cleared and delipidated material, but a series of anisole:benzyl benzaldehyde or isopropanol:benzyl benzaldehyde did not produce clearer specimens at or around the refractive index of benzyl alcohol. 
 	
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/benzylBenzaldehyde+anisole.jpg" width="350">
+Cleared specimens in various anisole: and isopropanol:benzyl benzaldehyde mixtures from refractive indices = 1.48 to 1.54. The clearest piece in SW corner is in 100% benzyl alcohol. 
+
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/inAcetone.jpg" width="250">
+Bleached specimens in acetone. 
+
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/taperPostAcetone.jpg" width="250">
+Single specimen from acetone solution. The specimen thickness is tapered, showing the incomplete clearing thus far.
+
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/inBenzylAlcohol.jpg" width="250">
+Bleached specimens in benzyl alcohol. 
+
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/taperPostBenzyl.jpg" width="250">
+Single specimen from benzyl alcohol solution. The complete clearing of the full thickness of this piece is apparent.
+
+
+	
 	Superglue (cyanoacrylate) did not adhere to the specimens in benzyl alcohol.  The UV adhesive does slowly soften in benzyl alcohol.  It helps to add additional material to build up a stronger joint when mounting. 
 	
-	The wood pores may be challenging to clear of air bubbles at immersion steps. A vacuum pump to evacuate the immersion vessel aids in removing these bubbles. I used a manual pump intended for clearing hydraulic brake lines on a car. This did help remove bubbles from the specimen pieces though a stronger vacuum could move this process along more quickly. 
+	The wood pores may be challenging to clear of air bubbles at immersion steps. A vacuum pump to evacuate the immersion vessel aids in removing these bubbles. I used a [manual pump intended for clearing hydraulic brake lines on a car](https://github.com/PRNicovich/cheesoSPIM/blob/main/output/vacPump.jpg). This did help remove bubbles from the specimen pieces though a stronger vacuum could move this process along more quickly. 
 	
 	
 - Imaging
@@ -248,7 +268,7 @@ Z stack of cleared balsa wood imaged on the cheesoSPIM with manual Z axis drive.
 
 
 
-- Comparison to goals
+### Comparison to goals
 
 1. OPT w/ telecentric lens
    
