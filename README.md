@@ -197,21 +197,25 @@ Optical diagram of the cheesoSPIM. A laser beam is filtered expanded by a cylind
 <img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/benzylBenzaldehyde+anisole.jpg" width="350">
 Cleared specimens in various anisole: and isopropanol:benzyl benzaldehyde mixtures from refractive indices = 1.48 to 1.54. The clearest piece in SW corner is in 100% benzyl alcohol. 
 
+
 <img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/inAcetone.jpg" width="250">
 Bleached specimens in acetone. 
+
 
 <img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/taperPostAcetone.jpg" width="250">
 Single specimen from acetone solution. The specimen thickness is tapered, showing the incomplete clearing thus far.
 
+
 <img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/inBenzylAlcohol.jpg" width="250">
 Bleached specimens in benzyl alcohol. 
+
 
 <img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/taperPostBenzyl.jpg" width="250">
 Single specimen from benzyl alcohol solution. The complete clearing of the full thickness of this piece is apparent.
 
 
 	
-	Superglue (cyanoacrylate) did not adhere to the specimens in benzyl alcohol.  The UV adhesive does slowly soften in benzyl alcohol.  It helps to add additional material to build up a stronger joint when mounting. 
+Superglue (cyanoacrylate) did not adhere to the specimens in benzyl alcohol.  The UV adhesive does slowly soften in benzyl alcohol.  It helps to add additional material to build up a stronger joint when mounting. 
 	
 	The wood pores may be challenging to clear of air bubbles at immersion steps. A vacuum pump to evacuate the immersion vessel aids in removing these bubbles. I used a [manual pump intended for clearing hydraulic brake lines on a car](https://github.com/PRNicovich/cheesoSPIM/blob/main/output/vacPump.jpg). This did help remove bubbles from the specimen pieces though a stronger vacuum could move this process along more quickly. 
 	
