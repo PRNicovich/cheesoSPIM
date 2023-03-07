@@ -1,4 +1,4 @@
-**The CHEap mESOscopic Selective Plane Illumination Microscope**
+The **CHE**ap m**ESO**scopic **S**elective **P**lane **I**llumination **M**icroscope
 
 aka 
 
