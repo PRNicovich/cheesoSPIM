@@ -141,12 +141,15 @@ A $500 fluorescence light sheet microscope that you can build at home. Plus a pr
 ### Assembly
 
 The laser bone connects to the filter bone
+
 the filter bone connects to the cylindrical lens bone
+
 the cylindrical lens bone connects to the cannon lens
+
 and the cannon lens makes the light sheet
 
 <p>
-	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/cheesoSPIMopticalDiagram.jpg" width="450">
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/cheesoSPIMopticalDiagram.jpg" width="650">
 	<br>
 	<em>Optical diagram of the cheesoSPIM. A laser beam is filtered expanded by a cylindrical lens and a sheet generated with the DSLR lens. The fluorescence from the specimen excited by the sheet is filtered and collected by a telecentric lens and webcam. </em>
 </p>
