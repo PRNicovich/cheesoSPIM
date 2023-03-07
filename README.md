@@ -27,7 +27,7 @@ A $500 fluorescence light sheet microscope that you can build at home. Plus a pr
 	
 	After a few emails around the topic I was thinking on how the design could be made cheaper. One of its advantages is its cost, which is cheap for lab equipment.  But that's compared to, like, a confocal microscope and not to, say, a normal human number of dollars. Taking a closer look at the two most expensive pieces of the design - the camera and its lens - would make the most sense. OPT imaging is rarely starved for photons; a cheap(ish) USB webcam is plenty for this application. That leaves the lens.
 	
-	The images collected in an OPT are ideally an optical projection of the specimen onto the camera chip. The system approximates the detector on a CT scanner, in which there are no optics.  The image is an orthographic projection formed by a specimen in the path of a collimated X-ray beam.  The optical equivalent is imaging with a [telecentric lens](https://en.wikipedia.org/wiki/Telecentric_lens). These lenses are designed to form an image from a bunch of parallel rays of light.  The result is the optical orthographic projection we require.
+	The images collected in an OPT are ideally an optical projection of the specimen onto the camera chip. The system approximates the detector on a CT scanner, in which there are no optics.  The image is an orthographic projection formed by a specimen in the path of a collimated X-ray beam.  The optical equivalent is imaging with a [telecentric lens](https://en.wikipedia.org/wiki/Telecentric_lens). These lenses are designed to form an image from a bunch of parallel rays of light.  The result is the optical orthographic projection we require. Conveniently the same requirements that work for an OPT imaging lens work for a light sheet, though often only the sheet excitation plane is projected onto the camera rather than the entire specimen.
 	
 	Telecentric lenses are adventageous in metrology and industrial machine vision because the size of an object does not vary with distance to the lens. Surplus lenses are available in a variety of specifications. These lenses fit a profile of unexpectedly common (thanks to industrial applications) and highly specific (so unlikely to be reused in new work) that makes them favorable for buying surplus. We can also afford to be a little flexible here on magnification and other specs. 
 	
@@ -60,6 +60,7 @@ A $500 fluorescence light sheet microscope that you can build at home. Plus a pr
 	This unsanctioned project began to coalesce into an overheated science fair project and seemed appropriate to include a specimen that could be prepared at home. The item should be reasonably easy to obtain from a commercial source and clear with (reasonably) safe protocols. Turns out [cleared](https://www.youtube.com/watch?v=uUU3jW7Y9Ak) [wood](https://pubs.acs.org/doi/10.1021/acs.biomac.6b00145) is a thing as a bio-friendly building material. There the process is delignification (bleaching) followed by impregnation with plastic (index matching). 
 	
 	Starting with balsa wood, bleaching, and index matching with a proper solvent or mixture seemed like a reasonable way to go. This omits the impregnation step above for the more typical approach in fluorescence microscopy of soaking the bleached and delipidated specimen in an index-matching fluid. 
+	
 	Chemicals required are avialable for < $100 in quantities between sufficient and 'lifetime supply' from Amazon. 
 
 
@@ -67,11 +68,11 @@ A $500 fluorescence light sheet microscope that you can build at home. Plus a pr
 
 	The completion of this project became a challenge in demonstrating a working light sheet + OPT microscope and specimen to image using what is available to the general public. Reimagining a complex machine in the cheapest terms possible is a useful exercise for a few reasons.
 	
-	Making something cheap is challenging. It takes little deviation from idealized theory if all of your instruments are built of nothing but the highest quality materials machined to tight tolerances. If you're pushing the limits of physics then that might be necessary.  But if you're not then it's likely cheaper and faster and easier to compromise precision and performance where it's not needed. Figuring where that is true requires attention to details of the operation of the instrument and choices made outside of the usual ones for biomedical research. 
+	Making something cheap is challenging. It takes little deviation from idealized theory if all of your instruments are built of nothing but the highest quality materials machined to tight tolerances. If you're pushing the limits of physics then that might be necessary.  But if you're not then it's likely cheaper and faster and easier to compromise precision and performance where it's not needed. Figuring where that is true requires attention to details of the operation of the instrument and choices made outside of the usual ones for biomedical research. Experimental science often has a hangup around an approach being the *best* or *most precise* or *highest resolution* or whatever.  This is often leads to thinking that the best instrument is the only acceptable option. Instead one should start from what is *required* to answer the scientific question at hand. Any performance beyond that is usually superfluous. 
 	
-	Making something cheap makes it more accessable. Scientific equipment is expensive. Making it cheaper means more folks can possibly take advantage of this technology.  The work presented here is within the domain of a well-supervised group of high school students. Or if someone wants to wipe the floor with some folks at their science fair this might do it.
+	Making something cheap makes it more accessable. Scientific equipment is expensive. Making it cheaper means more folks can possibly take advantage of this technology.  The work presented here is within the domain of a well-supervised group of high school students. Or if someone wants to wipe the floor with their classmates at a science fair this might do it.
 	
-	Making it cheap makes it more fun.  The bar for trying something that costs $20 is a lot lower than if it costs $200 or $2000. The pressure for that experiment to yield something useful is lower, too.  Making it cheap leaves more room for creativity and individuality. 
+	Making it cheap makes it more fun.  The bar for trying something that costs $20 is a lot lower than if it costs $200 or $2000. The pressure for that experiment to yield something useful is lower, too.  Making it cheap leaves more room for creativity and individuality. As in here, one can play with the laser cutter and 3D printer in a new way, explore some optics ideas, or just have their own little machine they built because it's amusing to build things.
 
 ### Parts + Price
 - Laser - $36, eBay
@@ -122,6 +123,8 @@ A $500 fluorescence light sheet microscope that you can build at home. Plus a pr
 	- Tools
 		T handle hex drivers
 		Brake bleeder vacuum pump
+		
+**TOTAL** = $490
 
  - Specimen prep
 	- Wood - $5
