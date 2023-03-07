@@ -138,8 +138,10 @@ the filter bone connects to the cylindrical lens bone
 the cylindrical lens bone connects to the cannon lens
 and the cannon lens makes the light sheet
 
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/cheesoSPIMopticalDiagram.jpg" width="350">
-Optical diagram of the cheesoSPIM. A laser beam is filtered expanded by a cylindrical lens and a sheet generated with the DSLR lens. The fluorescence from the specimen excited by the sheet is filtered and collected by a telecentric lens and webcam. 
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/cheesoSPIMopticalDiagram.jpg" width="350">
+	<em>Optical diagram of the cheesoSPIM. A laser beam is filtered expanded by a cylindrical lens and a sheet generated with the DSLR lens. The fluorescence from the specimen excited by the sheet is filtered and collected by a telecentric lens and webcam. </em>
+</p>
 
 - Excitation optics
  
