@@ -7,7 +7,7 @@ aka
 A $500 fluorescence light sheet microscope that you can build at home. Plus a protocol for clearing wood for use in fluorescence microscopy that you can also do at home. Design and build guide below.
 
 
-# Motivations
+## Motivation
 
 1. How cheap could you make an AIBSOPT?
 	At an old job I designed and built [this][https://github.com/AllenInstitute/AIBSOPT], a low-cost microscope for rapid 3D transmitted light and fluorescence imaging. The system was designed to do [optical projection tomography][https://en.wikipedia.org/wiki/Optical_projection_tomography] in which a series of 2D images are collected and computationally reconstructed into a 3D image of the sample. The principle and math behind the technique is identical to [computed tomography][https://www.nibib.nih.gov/science-education/science-topics/computed-tomography-ct] used in medical imaging. OPT uses visible light, not X-rays, and the sample is rotated between each image collected, where CT scanners rotate the detector around the patient. 
@@ -42,7 +42,7 @@ A $500 fluorescence light sheet microscope that you can build at home. Plus a pr
 	Making something cheap makes it more accessable. Scientific equipment is expensive. Making it cheaper means more folks can possibly take advantage of this technology.  The work presented here is within the domain of a well-supervised group of high school students. Or if someone wants to wipe the floor with some folks at their science fair...
 	Making it cheap makes it more fun.  The bar for trying something that costs $20 is a lot lower than if it costs $200 or $2000. The pressure for that experiment to yield something useful is lower, too.  Making it cheap leaves more room for creativity and individuality. 
 
-# Parts + Price
+## Parts + Price
 - Laser - $36, eBay
 	80 mW 450 nm diode laser + controller 
 
@@ -104,7 +104,7 @@ A $500 fluorescence light sheet microscope that you can build at home. Plus a pr
 	- Uv glue - $8, Amazon
 		EDSRDXS UV bonding glue
 
-# Assembly
+## Assembly
 
 The laser bone connects to the filter bone
 the filter bone connects to the cylindrical lens bone
@@ -136,7 +136,7 @@ and the cannon lens makes the light sheet
 	Python code for a mediocre GUI is included.  It can stream and record from a webcam and communicate with the Arduino via PC.  In practice it was used for controlling the theta motor for specimen positioning.  Could be improved for more utility. 
 
 
-# Preparation of cleared balsa wood
+## Preparation of cleared balsa wood
 
 - Requirements
 	Light sheet microscopy works best with an optically clear specimen.  Here the goal is to produce such a specimen for demonstrating the capability of the assembled microscope. Ideally this specimen and required reagents are readily available, inexpensive, unharmful, and amenable to a straightforward clearing protocol.  I define 'readily availble' as 'can be purchased easily on the internet' and 'unharmful' being 'ok to use in your garage without a respirator'.  Here I present a protocol for generating optically clear balsa wood using sodium chlorite and  
@@ -163,7 +163,7 @@ and the cannon lens makes the light sheet
 	Resolution was measured by finding a point-like source in a captured image. A point-like feature was identified and the intensity vs distance profile across this feature was fit to a Gaussian function. This fit gives a σ = 1.43, or full width half max value of 3.37 pixels, corresponding to a resolution of 14.5 µm.   
 
 
-# Results
+## Results
 Static images show pores (~250 µm diameter) and tool marks from the milling saw. These pores can be followed through the depth of the specimen in the Z stack video data.  One pore contains an air bubble that is visible as inclusions in the deeper planes of the stack; fully wetted pores do not show this issue.  
 
 Thing works fine.
