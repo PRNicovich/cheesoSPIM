@@ -7,9 +7,9 @@ aka
 A $500 fluorescence light sheet microscope that you can build at home. Plus a protocol for clearing wood for use in fluorescence microscopy that you can also do at home. Design and build guide below.
 
 ### Pics up front
-![Cleared balsa wood imaged by cheesoSPIM](https://github.com/PRNicovich/cheesoSPIM/blob/main/output/otherEndView.png) "Cleared balsa wood imaged by cheesoSPIM")
+![Cleared balsa wood imaged by cheesoSPIM](https://github.com/PRNicovich/cheesoSPIM/blob/main/output/otherEndView.png)
 
-![cheesoSPIM and dye solution](https://github.com/PRNicovich/cheesoSPIM/blob/main/output/swirlyDye.jpg =500x500) "cheesoSPIM and dye solution")
+![cheesoSPIM and dye solution]((https://github.com/PRNicovich/cheesoSPIM/blob/main/output/swirlyDye.jpg =500x500) "cheesoSPIM and dye solution")
 
 
 ### Motivation
