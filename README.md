@@ -211,7 +211,7 @@ and the cannon lens makes the light sheet
 <img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/scaledFullScale.jpg" width="250">
 Image used to empirically calibrate pixel size.
 	
-	Resolution was measured by finding a point-like source in a captured image. A point-like feature was identified and the intensity vs distance profile across this feature was fit to a Gaussian function. This fit gives a σ = 1.43, or full width half max value of 3.37 pixels, corresponding to a resolution of 14.5 µm.   
+Resolution was measured by finding a point-like source in a captured image. A point-like feature was identified and the intensity vs distance profile across this feature was fit to a Gaussian function. This fit gives a σ = 1.43, or full width half max value of 3.37 pixels, corresponding to a resolution of 14.5 µm.   
 	
 <img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/selectionFullRes.png" width="250">
 Captured image showing point-like feature chosen for resolution calibration.
@@ -243,6 +243,8 @@ Static images show pores (~250 µm diameter) and tool marks from the milling saw
 
 <img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/zoomThrough.gif" width="450">
 Z stack of cleared balsa wood imaged on the cheesoSPIM with manual Z axis drive. Specimen is at a slight angle to the left as one moves deeper into the specimen. Sheet is incident from the left of the image. Defocus on right of specimen is largely due to difficulty of imaging through specimen thickness. Inclusions at ~1/3 from top and singular inclusion at similar position near bottom are due to air remaining in the balsa wood pores.
+
+
 
 - Comparison to goals
 
