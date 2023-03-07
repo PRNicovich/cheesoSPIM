@@ -210,34 +210,34 @@ and the cannon lens makes the light sheet
 
 	
 <p>
-	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/inAcetone.jpg" width="350">
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/inAcetone.jpg" width="250">
 	<br>
 	<em>Bleached specimens in acetone. </em>
 </p>
 
 	
 <p>
-	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/taperPostAcetone.jpg" width="350">
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/taperPostAcetone.jpg" width="250">
 	<br>
 	<em>Single specimen from acetone solution. The specimen thickness is tapered, showing the incomplete clearing at this point in the process</em>
 </p>
 
 	
 <p>
-	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/inBenzylAlcohol.jpg" width="350">
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/inBenzylAlcohol.jpg" width="250">
 	<br>
 	<em>Bleached specimens in benzyl alcohol. </em>
 </p>
 
 <p>
-	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/taperPostBenzyl.jpg" width="350">
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/taperPostBenzyl.jpg" width="250">
 	<br>
 	<em>Single specimen from benzyl alcohol solution. The complete clearing of the full thickness of this piece is apparent.</em>
 </p>
 	
 Superglue (cyanoacrylate) did not adhere to the specimens in benzyl alcohol.  The UV adhesive does slowly soften in benzyl alcohol.  It helps to add additional material to build up a stronger joint when mounting. 
 	
-	The wood pores may be challenging to clear of air bubbles at immersion steps. A vacuum pump to evacuate the immersion vessel aids in removing these bubbles. I used a [manual pump intended for clearing hydraulic brake lines on a car](https://github.com/PRNicovich/cheesoSPIM/blob/main/output/vacPump.jpg). This did help remove bubbles from the specimen pieces though a stronger vacuum could move this process along more quickly. 
+The wood pores may be challenging to clear of air bubbles at immersion steps. A vacuum pump to evacuate the immersion vessel aids in removing these bubbles. I used a [manual pump intended for clearing hydraulic brake lines on a car](https://github.com/PRNicovich/cheesoSPIM/blob/main/output/vacPump.jpg). This did help remove bubbles from the specimen pieces though a stronger vacuum could move this process along more quickly. 
 	
 	
 - Imaging
@@ -262,12 +262,10 @@ Resolution was measured by finding a point-like source in a captured image. A po
 	
 	
 <p>
-	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/selectionFullRes.png" width="350">
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/selectionFullRes.png" width="450">
 	<br>
 	<em>Captured image showing point-like feature chosen for resolution calibration.</em>
 </p>	
-
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/selectionFullRes.png" width="250">
 
 <p>
 	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/profile.png" width="250">
