@@ -15,6 +15,7 @@ A $500 fluorescence light sheet microscope that you can build at home. Plus a pr
 
 <p>
 	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/swirlyDye.jpg" width="300">
+	<br>
 	<em>A partially mixed dye solution illuminated by the cheesoSPIM light sheet. </em>
 </p>
 
@@ -143,6 +144,7 @@ and the cannon lens makes the light sheet
 
 <p>
 	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/cheesoSPIMopticalDiagram.jpg" width="350">
+	<br>
 	<em>Optical diagram of the cheesoSPIM. A laser beam is filtered expanded by a cylindrical lens and a sheet generated with the DSLR lens. The fluorescence from the specimen excited by the sheet is filtered and collected by a telecentric lens and webcam. </em>
 </p>
 
@@ -199,26 +201,39 @@ and the cannon lens makes the light sheet
 
 	Pieces the full thickness tested (> 2 mm) were successfully cleared using this method. Benzyl alcohol is not a perfect match for the resulting refractive index of the cleared and delipidated material, but a series of anisole:benzyl benzaldehyde or isopropanol:benzyl benzaldehyde did not produce clearer specimens at or around the refractive index of benzyl alcohol. 
 	
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/benzylBenzaldehyde+anisole.jpg" width="350">
-Cleared specimens in various anisole: and isopropanol:benzyl benzaldehyde mixtures from refractive indices = 1.48 to 1.54. The clearest piece in SW corner is in 100% benzyl alcohol. 
+	
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/benzylBenzaldehyde+anisole.png" width="350">
+	<br>
+	<em>Cleared specimens in various anisole: and isopropanol:benzyl benzaldehyde mixtures from refractive indices = 1.48 to 1.54. The clearest piece in SW corner is in 100% benzyl alcohol. </em>
+</p>
 
+	
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/inAcetone.jpg" width="350">
+	<br>
+	<em>Bleached specimens in acetone. </em>
+</p>
 
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/inAcetone.jpg" width="250">
-Bleached specimens in acetone. 
+	
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/taperPostAcetone.jpg" width="350">
+	<br>
+	<em>Single specimen from acetone solution. The specimen thickness is tapered, showing the incomplete clearing at this point in the process</em>
+</p>
 
+	
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/inBenzylAlcohol.jpg" width="350">
+	<br>
+	<em>Bleached specimens in benzyl alcohol. </em>
+</p>
 
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/taperPostAcetone.jpg" width="250">
-Single specimen from acetone solution. The specimen thickness is tapered, showing the incomplete clearing thus far.
-
-
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/inBenzylAlcohol.jpg" width="250">
-Bleached specimens in benzyl alcohol. 
-
-
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/taperPostBenzyl.jpg" width="250">
-Single specimen from benzyl alcohol solution. The complete clearing of the full thickness of this piece is apparent.
-
-
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/taperPostBenzyl.jpg" width="350">
+	<br>
+	<em>Single specimen from benzyl alcohol solution. The complete clearing of the full thickness of this piece is apparent.</em>
+</p>
 	
 Superglue (cyanoacrylate) did not adhere to the specimens in benzyl alcohol.  The UV adhesive does slowly soften in benzyl alcohol.  It helps to add additional material to build up a stronger joint when mounting. 
 	
@@ -237,43 +252,69 @@ Superglue (cyanoacrylate) did not adhere to the specimens in benzyl alcohol.  Th
 
 	Image size was calibrated with an of a ruler marked in millimeter increments. With the 0.5x telecentric lens this gives a pixel size of 1.07 µm/pixel; the datasheet gives 1.12 µm/pixel so these numbers agree well.  The full field of view is 4.9 mm x 3.7 mm.
 
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/scaledFullScale.jpg" width="250">
-Image used to empirically calibrate pixel size.
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/scaledFullScale.jpg" width="350">
+	<br>
+	<em>Image used to empirically calibrate pixel size. The line used for the image space distance measurements is indicated.</em>
+</p>
 	
 Resolution was measured by finding a point-like source in a captured image. A point-like feature was identified and the intensity vs distance profile across this feature was fit to a Gaussian function. This fit gives a σ = 1.43, or full width half max value of 3.37 pixels, corresponding to a resolution of 14.5 µm.   
 	
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/selectionFullRes.png" width="250">
-Captured image showing point-like feature chosen for resolution calibration.
-
-
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/profile.png" width="150">
-Inset of above with line profile indicated.
-
-
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/gaussianFittoSpot.png" width="350">
-Gaussian fit to intensity profile across point feature. The FWHM of the fit is a good match to the data, indicating a FWHM resolution of 14.5 µm.
 	
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/selectionFullRes.png" width="350">
+	<br>
+	<em>Captured image showing point-like feature chosen for resolution calibration.</em>
+</p>	
+
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/selectionFullRes.png" width="250">
+
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/profile.png" width="250">
+	<br>
+	<em>Inset of above with line profile indicated.</em>
+</p>	
+
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/gaussianFittoSpot.png" width="350">
+	<br>
+	<em>Gaussian fit to intensity profile across point feature. The FWHM of the fit is a good match to the data, indicating a FWHM resolution of 14.5 µm.</em>
+</p>
 
 
 ### Results
 
 The presented clearing protocol does a good job at producing optically clear balsa wood. There is some room for improvement in index matching. The pieces remain clear enough to read typical text through the 3/32" (2.x mm) thick piece.
 
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/clearedFullThickness.jpg" width="250">
-3/32" thick cleared balsa wood between two glass coverslips. The specimen remains immersed in benzyl alcohol. 
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/clearedFullThickness.jpg" width="250">
+	<br>
+	<em>3/32" thick cleared balsa wood between two glass coverslips. The specimen remains immersed in benzyl alcohol. </em>
+</p>
 
 The instrument is capable of capturing images of features tens of microns in size. As with any microscope the quality of the image depends on many factors including focus quality and user experience level.  Through experimentation it became apparent that best images are captured by ensuring the light sheet beam waist is as close to the feature of interest in the specimen as possible. This is adjusted using the zoom (coarse adjustments) and focus (fine adjustments) rings on the DSLR lens. The telecentric lens can be moved in and out carefully in its V block holder to ensure the camera plane and the light sheet are coincident. Some remaining defocus is apparent at the edges of the field; this could be due to a mismatch in tilt between the light sheet and camera or because of field flatness limitations of the telecentric lens. The performance overall is very respectable for an instrument at this price level.
 
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/otherEndView.png" width="250">
-Cleared balsa wood imaged on the cheesoSPIM. Pores and machine marks are clearly visible.  The defocus at the top of the image could be due to misalignment or effects from the top surface of the immersion fluid in the imaging chamber.  
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/otherEndView.png" width="250">
+	<br>
+	<em>Cleared balsa wood imaged on the cheesoSPIM. Pores and machine marks are clearly visible.  The defocus at the top of the image could be due to misalignment or effects from the top surface of the immersion fluid in the imaging chamber. </em>
+</p>
 
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/endView.png" width="250">
-Cleared balsa wood imaged on the cheesoSPIM. Pores and machine marks are clearly visible.  The focus quality of this image could be improved somewhat.
+
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/endView.png" width="250">
+	<br>
+	<em>Cleared balsa wood imaged on the cheesoSPIM. Pores and machine marks are clearly visible.  The focus quality of this image could be improved somewhat.</em>
+</p>
 
 Static images show pores (~250 µm diameter) and tool marks from the milling saw. These pores can be followed through the depth of the specimen in the Z stack video data.  One pore contains an air bubble that is visible as inclusions in the deeper planes of the stack; fully wetted pores do not show this issue.  
 
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/zoomThrough.gif" width="450">
-Z stack of cleared balsa wood imaged on the cheesoSPIM with manual Z axis drive. Specimen is at a slight angle to the left as one moves deeper into the specimen. Sheet is incident from the left of the image. Defocus on right of specimen is largely due to difficulty of imaging through specimen thickness. Inclusions at ~1/3 from top and singular inclusion at similar position near bottom are due to air remaining in the balsa wood pores.
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/zoomThrough.gif" width="450">
+	<br>
+	<em>Z stack of cleared balsa wood imaged on the cheesoSPIM with manual Z axis drive. Specimen is at a slight angle to the left as one moves deeper into the specimen. Sheet is incident from the left of the image. Defocus on right of specimen is largely due to difficulty of imaging through specimen thickness. Inclusions at ~1/3 from top and singular inclusion at similar position near bottom are due to air remaining in the balsa wood pores.</em>
+</p>
+
 
 
 
