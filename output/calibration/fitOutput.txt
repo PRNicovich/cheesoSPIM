@@ -1,0 +1,15 @@
+Fit for Plot of Picture 2023-03-01 19-46-55: Data Set 1: (57 data points)
+Formula: y = a + (b-a)*exp(-(x-c)*(x-c)/(2*d*d))
+Macro code: y = a+(b-a)*Math.exp(-(x-c)*(x-c)/(2*d*d))
+Status: Success
+Number of completed minimizations: 2
+Number of iterations: 107 (max: 6000)
+Time: 15 ms
+Sum of residuals squared: 11938.0894
+Standard deviation: 14.60069
+R^2: 0.79317
+Parameters:
+	a = 92.49210
+	b = 233.19424
+	c = 26.51290
+	d = 1.43224
