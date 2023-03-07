@@ -203,7 +203,7 @@ and the cannon lens makes the light sheet
 	
 	
 <p>
-	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/benzylBenzaldehyde+anisole.png" width="350">
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/benzylBenzaldehyde+anisole.jpg" width="350">
 	<br>
 	<em>Cleared specimens in various anisole: and isopropanol:benzyl benzaldehyde mixtures from refractive indices = 1.48 to 1.54. The clearest piece in SW corner is in 100% benzyl alcohol. </em>
 </p>
