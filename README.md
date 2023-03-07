@@ -9,6 +9,7 @@ A $500 fluorescence light sheet microscope that you can build at home. Plus a pr
 ### Pics up front
 <p>
 	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/otherEndView.png" width="300">
+	<br>
 	<em>Image of cleared balsa wood captured on the cheesoSPIM.  Pores (dark holes) and tooling marks (white lines) are visible.  </em>
 </p>
 
