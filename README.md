@@ -146,14 +146,44 @@ the cylindrical lens bone connects to the cannon lens
 and the cannon lens makes the light sheet
 
 <p>
-	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/cheesoSPIMopticalDiagram.jpg" width="350">
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/cheesoSPIMopticalDiagram.jpg" width="450">
 	<br>
 	<em>Optical diagram of the cheesoSPIM. A laser beam is filtered expanded by a cylindrical lens and a sheet generated with the DSLR lens. The fluorescence from the specimen excited by the sheet is filtered and collected by a telecentric lens and webcam. </em>
 </p>
 
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/overview.jpg" width="350">
+	<br>
+	<em>Top-down view of assembled cheesoSPIM. Orientation matches the diagram above. Holes are on a 1" grid.</em>
+</p>
+
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/threeQuarters.jpg" width="350">
+	<br>
+	<em>Three-quarters view showing specimen cuvette, Z stage, and theta axis.</em>
+</p>
+
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/otherSide.jpg" width="350">
+	<br>
+	<em>Alternate three-quarters view showing instrument orientation.</em>
+</p>
+
+<p>
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/sample.jpg" width="350">
+	<br>
+	<em>Zoom on sample area with mounted specimen. Specimen appears offset from motor shaft due to high index of the immersion fluid.</em>
+</p>
+
+
+
 - Excitation optics
  
 	The laser head is screwed to a laser-cut base to hold it at the chosen beam height. The mount screws are adjusted to level the beam relative to the breadboard. The excitation filter and cylindrical lens are glued into laser-cut holders held in front of the laser output with double-sided tape and wire.  The output line should remain centered at the beam height and be perpendicular to the breadboard. Adjust the cylindrical lens to achieve this. The laser assembly is placed in front of the DSLR lens (in its own laser-cut holder) such that the laser line is centered in the lens aperture. A light sheet should exit the front of the lens along the lens axis.  The beam waist of this sheet can be positioned using the zoom and focus of the DSLR lens. The cylindrical lens assembly is the correct distance from the back of the DSLR lens when the beam enters and exits the beam waist at the same angle. 
+	
+- Transmission optics
+
+	For OPT a transmitted source is helpful.  This should be diffuse and evenly illuminating the specimen.  Here a replacement backlight for a large smartphone is used. This requires a voltage converter to run at the 5v that the other parts require.  Once mounted into a laser-cut frame it's placed at the far side of the specimen from the collection lens. 
 
 - Collection optics
 
@@ -169,7 +199,11 @@ and the cannon lens makes the light sheet
 
 - Breadboard and clamps
 
-	The breadboard is made from 1/2" plywood with drilled and tapped holes for 1/4"-20 screws on a 1" grid. The wood is sealed with several layers of water-based polyurethane sanded smooth. Components are screwed directly to the breadboard using 1/4"-20 cap head screws or with strap clamps. These clamps are laser cut from 1/4" acrylic.  One screw goes in the hole; this screw should be longer than the height of the object to clamp. The other screw goes through the slot into the breadboard to clamp the component in place. Adjust the first screw to make sure the clamp points downhill into the component. If building your own, use high-quality fine plywood or a composite material. A half-inch piece of plywood should have 10+ layers. Baltic birch B/BB grade should work well and is more common than the material used here, which was salvaged from an instrument shipping crate. MDF and Corian have been used for similar purposes in the past.
+	The breadboard is made from 1/2" plywood with drilled and tapped holes for 1/4"-20 screws on a 1" grid. This is less than an hour of work with a cordless drill; a drill with a slip clutch is useful when tapping to avoid stripping just-made threads. 
+	
+	The wood is sealed with several layers of water-based polyurethane sanded smooth. Adjust the first screw to make sure the clamp points downhill into the component. If building your own, use high-quality fine plywood or a composite material. A half-inch piece of plywood should have 10+ layers. Baltic birch B/BB grade should work well and is more common than the material used here, which was salvaged from an instrument shipping crate. MDF and Corian have been used for similar purposes in the past.
+
+	Components are screwed directly to the breadboard using 1/4"-20 cap head screws or with strap clamps. These clamps are laser cut from 1/4" acrylic, but any reasonably stiff material will also work.  One screw goes in the hole; this screw should be longer than the height of the object to clamp. The other screw goes through the slot into the breadboard to clamp the component in place. 
 
 - Cuvette 
 
@@ -277,7 +311,7 @@ Resolution was measured by finding a point-like source in a captured image. A po
 </p>	
 
 <p>
-	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/gaussianFittoSpot.png" width="350">
+	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/gaussianFittoSpot.png" width="450">
 	<br>
 	<em>Gaussian fit to intensity profile across point feature. The FWHM of the fit is a good match to the data, indicating a FWHM resolution of 14.5 µm.</em>
 </p>
