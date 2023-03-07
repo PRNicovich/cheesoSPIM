@@ -216,10 +216,12 @@ Resolution was measured by finding a point-like source in a captured image. A po
 <img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/selectionFullRes.png" width="250">
 Captured image showing point-like feature chosen for resolution calibration.
 
+
 <img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/profile.png" width="150">
 Inset of above with line profile indicated.
 
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/gaussianFittoSpot.png" width="250">
+
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/gaussianFittoSpot.png" width="350">
 Gaussian fit to intensity profile across point feature. The FWHM of the fit is a good match to the data, indicating a FWHM resolution of 14.5 µm.
 	
 
@@ -228,7 +230,7 @@ Gaussian fit to intensity profile across point feature. The FWHM of the fit is a
 
 The presented clearing protocol does a good job at producing optically clear balsa wood. There is some room for improvement in index matching. The pieces remain clear enough to read typical text through the 3/32" (2.x mm) thick piece.
 
-<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/clearedFullThickness.png" width="250">
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/clearedFullThickness.jpg" width="250">
 3/32" thick cleared balsa wood between two glass coverslips. The specimen remains immersed in benzyl alcohol. 
 
 The instrument is capable of capturing images of features tens of microns in size. As with any microscope the quality of the image depends on many factors including focus quality and user experience level.  Through experimentation it became apparent that best images are captured by ensuring the light sheet beam waist is as close to the feature of interest in the specimen as possible. This is adjusted using the zoom (coarse adjustments) and focus (fine adjustments) rings on the DSLR lens. The telecentric lens can be moved in and out carefully in its V block holder to ensure the camera plane and the light sheet are coincident. Some remaining defocus is apparent at the edges of the field; this could be due to a mismatch in tilt between the light sheet and camera or because of field flatness limitations of the telecentric lens. The performance overall is very respectable for an instrument at this price level.
