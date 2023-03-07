@@ -1,13 +1,13 @@
-The CHEap mESOscopic Selective Plane Illumination Microscope
+**The CHEap mESOscopic Selective Plane Illumination Microscope**
 
 aka 
 
-**The cheesoSPIM**
+# The cheesoSPIM
 
 A $500 fluorescence light sheet microscope that you can build at home. Plus a protocol for clearing wood for use in fluorescence microscopy that you can also do at home. Design and build guide below.
 
 
-## Motivation
+#### Motivation
 
 1. How cheap could you make an AIBSOPT?
 
