@@ -144,7 +144,7 @@ and the cannon lens makes the light sheet
 
 - Collection optics
 
-	The camera is attached to the telecentric lens using the 3D printed adapter available in this [repo][HERE]. The two emission filters are stacked and held with screws to a laser-cut ring which slides over the front element of the telecentric lens. This assembly is held in a laser-cut V block assembly, shimmed to match the beam height of the light sheet and specimen. The axis of the telecentric lens should be perpendicular to that of the light sheet and excitation optics.
+	The camera is attached to the telecentric lens using a 3D printed adapter between webcam mounting holes and C mount thread. The two emission filters are stacked and held with screws to a laser-cut ring which slides over the front element of the telecentric lens. This assembly is held in a laser-cut V block assembly, shimmed to match the beam height of the light sheet and specimen. The axis of the telecentric lens should be perpendicular to that of the light sheet and excitation optics.
 
 - Stage philosophy and practice
 
@@ -202,21 +202,47 @@ and the cannon lens makes the light sheet
 	
 	The Z stack video was captured using the same software in video mode. Action along the Z axis was accomplished by manually turning an accessible drive gear in the Z axis slide.  Videos were cropped and contrast-adjusted for display. 
 	
-	Autofluorescence from the balsa wood provides the observable signal. This is dim. If more signal is required then staining the specimen with a fluorescent dye would be appropriate.
+	Autofluorescence from the balsa wood provides the observable signal. This is dim. If more signal is required then staining the specimen with a fluorescent dye would be appropriate.  The low bit depth of the webcam used for capturing images also complicates the capture of low signals. Even with the maxium permitted exposure time the signal occupies only a few bits of dynamic range. This manifests in the output images as images with discrete intensity steps where gradients should be present. For observing more binary signals this is less important. Spending a few hundred dollars on a USB sCMOS camera from FLIR/Point Grey/IDS/Thorlabs/... would make an immediate improvement and an obvious spot to trade money for performance.
 
 - Calibration
 
 	Image size was calibrated with an of a ruler marked in millimeter increments. With the 0.5x telecentric lens this gives a pixel size of 1.07 µm/pixel; the datasheet gives 1.12 µm/pixel so these numbers agree well.  The full field of view is 4.9 mm x 3.7 mm.
+
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/scaledFullScale.jpg" width="250">
+Image used to empirically calibrate pixel size.
 	
 	Resolution was measured by finding a point-like source in a captured image. A point-like feature was identified and the intensity vs distance profile across this feature was fit to a Gaussian function. This fit gives a σ = 1.43, or full width half max value of 3.37 pixels, corresponding to a resolution of 14.5 µm.   
+	
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/selectionFullRes.png" width="250">
+Captured image showing point-like feature chosen for resolution calibration.
+
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/profile.png" width="150">
+Inset of above with line profile indicated.
+
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/calibration/gaussianFittoSpot.png" width="250">
+Gaussian fit to intensity profile across point feature. The FWHM of the fit is a good match to the data, indicating a FWHM resolution of 14.5 µm.
+	
 
 
 ### Results
 
+The presented clearing protocol does a good job at producing optically clear balsa wood. There is some room for improvement in index matching. The pieces remain clear enough to read typical text through the 3/32" (2.x mm) thick piece.
+
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/clearedFullThickness.png" width="250">
+3/32" thick cleared balsa wood between two glass coverslips. The specimen remains immersed in benzyl alcohol. 
+
+The instrument is capable of capturing images of features tens of microns in size. As with any microscope the quality of the image depends on many factors including focus quality and user experience level.  Through experimentation it became apparent that best images are captured by ensuring the light sheet beam waist is as close to the feature of interest in the specimen as possible. This is adjusted using the zoom (coarse adjustments) and focus (fine adjustments) rings on the DSLR lens. The telecentric lens can be moved in and out carefully in its V block holder to ensure the camera plane and the light sheet are coincident. Some remaining defocus is apparent at the edges of the field; this could be due to a mismatch in tilt between the light sheet and camera or because of field flatness limitations of the telecentric lens. The performance overall is very respectable for an instrument at this price level.
+
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/otherEndView.png" width="250">
+Cleared balsa wood imaged on the cheesoSPIM. Pores and machine marks are clearly visible.  The defocus at the top of the image could be due to misalignment or effects from the top surface of the immersion fluid in the imaging chamber.  
+
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/endView.png" width="250">
+Cleared balsa wood imaged on the cheesoSPIM. Pores and machine marks are clearly visible.  The focus quality of this image could be improved somewhat.
+
 Static images show pores (~250 µm diameter) and tool marks from the milling saw. These pores can be followed through the depth of the specimen in the Z stack video data.  One pore contains an air bubble that is visible as inclusions in the deeper planes of the stack; fully wetted pores do not show this issue.  
 
-Thing works fine.
-
+<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/zoomThrough.gif" width="450">
+Z stack of cleared balsa wood imaged on the cheesoSPIM with manual Z axis drive. Specimen is at a slight angle to the left as one moves deeper into the specimen. Sheet is incident from the left of the image. Defocus on right of specimen is largely due to difficulty of imaging through specimen thickness. Inclusions at ~1/3 from top and singular inclusion at similar position near bottom are due to air remaining in the balsa wood pores.
 
 - Comparison to goals
 
