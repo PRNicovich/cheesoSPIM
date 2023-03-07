@@ -25,30 +25,40 @@ A $500 fluorescence light sheet microscope that you can build at home. Plus a pr
 2. Could you use a commercial motorized lens to tile a light sheet?
 
 	Axial scanning is hard in microscopy.  It usually means moving something around precisely. Precision is always tough and tough usually means expensive.  A shortcut around expensive can sometimes be found in precision someone else paid for. That can mean surplus equipment that still works or can be repaired, or it can mean mass production where the precision is in the tooling, amorated over thousands of replicates. The best is when both happen - surplus, mass-produced, precision equipment. Consumer optical equipment is a good example of this intersection. Maybe there's a product out there already doing what we need for axial scanning?
+	
 	The [MesoSPIM](https://mesospim.org/) uses a pair of Nikon DSLR lenses as the objective lens in each of the mirrored excitation light paths. There those lenses are static and used because they have the appropriate focal length and field size with good field flatness for forming the excitation sheet. In the MesoSPIM a [tunable lens](https://mesospim.org/design/#) upstream from the DSLR lens is responsible for axially scanning the light sheet. DSLR lenses these days are all motorized - could that work for scanning the sheet on its own?
+	
 	Canon DSLR lens communication [documentation or at least hacked versions thereof](https://web.media.mit.edu/~bandy/invariant/move_lens.pdf) is available and works through an Arduino. Lenses using the EF protocol are a little outdated electronically but the optics still work just the same. A lens with about a 50 mm focal length is probably right, and a zoom wouldn't hurt for testing. The EF protocol is a requirement but there are something like 100 million of that type lens in the world.  
+	
 	I found a Canon 35mm - 105mm f4.5 EF zoom lens for $36 on eBay. 
 
 
 3. Dramatic dichroics
 
 	If the telecentric lens is the collection side and the DSLR lens is the excitation side, then this is a fluorescence imaging system. The remaining piece is how to separate the excitation light from the laser from the emitted fluorescence from a specimen. In a typical fluorescence microscope this is done with dichroic mirrors and interference filters. Here I'd need one large enough to cover the front element of the telecentric lens - 50 mm or so - which could mean upwards of $1000 from a scientific optical filter supplier for a single part. But they're not the only ones that sell dichroics! The film and stage lighting industries use interference filters for plenty. Would any of those work?
+	
 	Rosco's [Permacolor](https://us.rosco.com/en/products/catalog/permacolor) line has many options for colors (aka pass bands) of filter to choose from. Spectra are a little tricky to find but the Industrial Green P1086 looked to line up with GFP or FITC emission reasonably well. A good place to start. 
+	
 	I ordered 2 x 1.95" P1086 filters from Musson Theatrical for $70, shipped.
 
 4. Home clearing
 
 	A microscope needs a specimen. Fluorescence microscopy and OPT both greatly benefit from an optically clear specimen.  Makes sense if you want to see all the way through something it's easier if it's see-through. Unfortunately most of the options for tissue clearning involve a system of witches brews and potions and incantations that are stinky, sticky, sickening, or all three. 
+	
 	This unsanctioned project began to coalesce into an overheated science fair project and seemed appropriate to include a specimen that could be prepared at home. The item should be reasonably easy to obtain from a commercial source and clear with (reasonably) safe protocols. Turns out [cleared](https://www.youtube.com/watch?v=uUU3jW7Y9Ak) [wood](https://pubs.acs.org/doi/10.1021/acs.biomac.6b00145) is a thing as a bio-friendly building material. There the process is delignification (bleaching) followed by impregnation with plastic (index matching). 
+	
 	Starting with balsa wood, bleaching, and index matching with a proper solvent or mixture seemed like a reasonable way to go. This omits the impregnation step above for the more typical approach in fluorescence microscopy of soaking the bleached and delipidated specimen in an index-matching fluid. 
 	Chemicals required are avialable for < $100 in quantities between sufficient and 'lifetime supply' from Amazon. 
 
 
 5. LOLs
 
-	The completion of this project became a challenge in demonstrating a working light sheet + OPT microscope and specimen to image using what is available to the general public. Reimagining a complex machine in the cheapest terms possible is a useful exercise for a few reasons. 
+	The completion of this project became a challenge in demonstrating a working light sheet + OPT microscope and specimen to image using what is available to the general public. Reimagining a complex machine in the cheapest terms possible is a useful exercise for a few reasons.
+	
 	Making something cheap is challenging. It takes little deviation from idealized theory if all of your instruments are built of nothing but the highest quality materials machined to tight tolerances. If you're pushing the limits of physics then that might be necessary.  But if you're not then it's likely cheaper and faster and easier to compromise precision and performance where it's not needed. Figuring where that is true requires attention to details of the operation of the instrument and choices made outside of the usual ones for biomedical research. 
-	Making something cheap makes it more accessable. Scientific equipment is expensive. Making it cheaper means more folks can possibly take advantage of this technology.  The work presented here is within the domain of a well-supervised group of high school students. Or if someone wants to wipe the floor with some folks at their science fair...
+	
+	Making something cheap makes it more accessable. Scientific equipment is expensive. Making it cheaper means more folks can possibly take advantage of this technology.  The work presented here is within the domain of a well-supervised group of high school students. Or if someone wants to wipe the floor with some folks at their science fair this might do it.
+	
 	Making it cheap makes it more fun.  The bar for trying something that costs $20 is a lot lower than if it costs $200 or $2000. The pressure for that experiment to yield something useful is lower, too.  Making it cheap leaves more room for creativity and individuality. 
 
 ### Parts + Price
@@ -131,7 +141,9 @@ and the cannon lens makes the light sheet
 - Stage philosophy and practice
 
 	Every axis that moves makes things more complicated. Every axis that moves can and will move.  These moves need to be aligned. These moves need to be controlled. Every axis you can cut from your design is more simplicity and reliability you are adding.
+	
 	For an OPT, only the rotational axis is required. Full 3d isotropic reconstructions are generated with just rotation around the specimen axis. Here that is accomplished with a small gearhead stepper motor directly to the shaft of which the specimen is glued. This motor is small enough to be driven by the Arduino directly in response to serial commands from the PC.
+	
 	A light sheet microscope typically has a Z axis for specimen scanning. Here the slide from a salvaged CD-ROM drive tray is used to position the specimen and theta motor along the optical axis of the telecentric lens. Motion along this axis scans the specimen through the image plane. In the current implementation this is done manually, but a motorized version would be straightforward. The slide assembly is mounted at a 45 degree angle to the breadboard to allow for more access under the stage. 
 
 - Breadboard and clamps
@@ -156,8 +168,10 @@ and the cannon lens makes the light sheet
 
 - Requirements
 
-	Light sheet microscopy works best with an optically clear specimen.  Here the goal is to produce such a specimen for demonstrating the capability of the assembled microscope. Ideally this specimen and required reagents are readily available, inexpensive, unharmful, and amenable to a straightforward clearing protocol.  I define 'readily availble' as 'can be purchased easily on the internet' and 'unharmful' being 'ok to use in your garage without a respirator'.  Here I present a protocol for generating optically clear balsa wood using sodium chlorite and  
+	Light sheet microscopy works best with an optically clear specimen.  Here the goal is to produce such a specimen for demonstrating the capability of the assembled microscope. Ideally this specimen and required reagents are readily available, inexpensive, unharmful, and amenable to a straightforward clearing protocol.  I define 'readily availble' as 'can be purchased easily on the internet' and 'unharmful' being 'ok to use in your garage without a respirator'.  Here I present a protocol for generating optically clear balsa wood using sodium chlorite and benzyl alcohol.
+	
 	Tissue clearing protocols for biomedical applications are presently an area of great research interest with dozens of published approaches for generating optically transparent mammalian tissue.  Typically these protocols involve two steps - a 'clearing' step in which scattering or absorbing material in the specimen is removed and an 'index matching' step where the cleared specimen is infiltrated and submerged in an fluid of matching refractive index to the specimen.  Together these steps aim to render the specimen optically transparent while in the index matching fluid. Unfortunately many of these protocols require reagents that are sticky, stinky, toxic, or otherwise incompatible with a home lab.  Imaging cleared tissue also requires harvesting or purchasing said tissue, a process I'd like to avoid.
+	
 	Thankfully plant tissue is reliably available in its dried and inert form at the local hardware, hobby, or art supply store in the form of balsa wood. This material shows interesting structure at the length scales observable on this instrument. Clear wood is an active area of research, with available [protocols] (https://pubs.rsc.org/en/content/articlelanding/2020/ra/d0ra07409h) usually with the aim of making optically clear biocomposites. This protocol is adapted here to use a fluid rather than embedded plastic for homogenizing the refractive index.  
 	
 
@@ -168,19 +182,24 @@ and the cannon lens makes the light sheet
 - Remarks
 
 	Pieces the full thickness tested (> 2 mm) were successfully cleared using this method. Benzyl alcohol is not a perfect match for the resulting refractive index of the cleared and delipidated material, but a series of anisole:benzyl benzaldehyde or isopropanol:benzyl benzaldehyde did not produce clearer specimens at or around the refractive index of benzyl alcohol. 
+	
 	Superglue (cyanoacrylate) did not adhere to the specimens in benzyl alcohol.  The UV adhesive does slowly soften in benzyl alcohol.  It helps to add additional material to build up a stronger joint when mounting. 
+	
 	The wood pores may be challenging to clear of air bubbles at immersion steps. A vacuum pump to evacuate the immersion vessel aids in removing these bubbles. I used a manual pump intended for clearing hydraulic brake lines on a car. This did help remove bubbles from the specimen pieces though a stronger vacuum could move this process along more quickly. 
 	
 	
 - Imaging
 
 	Images were captured using Webcamoid software and the camera set to the highest exposure time availble. For each static image, 8 captures were combined into a single composite image using ImageJ.  Each of the 8 images was imported, combined into a stack, converted to 32-bit grayscale, and summed along the Z axis. The resulting images were cropped and constrast-adjusted for display. 
+	
 	The Z stack video was captured using the same software in video mode. Action along the Z axis was accomplished by manually turning an accessible drive gear in the Z axis slide.  Videos were cropped and contrast-adjusted for display. 
+	
 	Autofluorescence from the balsa wood provides the observable signal. This is dim. If more signal is required then staining the specimen with a fluorescent dye would be appropriate.
 
 - Calibration
 
 	Image size was calibrated with an of a ruler marked in millimeter increments. With the 0.5x telecentric lens this gives a pixel size of 1.07 µm/pixel; the datasheet gives 1.12 µm/pixel so these numbers agree well.  The full field of view is 4.9 mm x 3.7 mm.
+	
 	Resolution was measured by finding a point-like source in a captured image. A point-like feature was identified and the intensity vs distance profile across this feature was fit to a Gaussian function. This fit gives a σ = 1.43, or full width half max value of 3.37 pixels, corresponding to a resolution of 14.5 µm.   
 
 
