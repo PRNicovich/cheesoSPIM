@@ -206,7 +206,7 @@ and the cannon lens makes the light sheet
 	
 	The wood is sealed with several layers of water-based polyurethane sanded smooth. Adjust the first screw to make sure the clamp points downhill into the component. If building your own, use high-quality fine plywood or a composite material. A half-inch piece of plywood should have 10+ layers. Baltic birch B/BB grade should work well and is more common than the material used here, which was salvaged from an instrument shipping crate. MDF and Corian have been used for similar purposes in the past.
 
-	Components are screwed directly to the breadboard using 1/4"-20 cap head screws or with strap clamps. These clamps are laser cut from 1/4" acrylic, but any reasonably stiff material will also work.  One screw goes in the hole; this screw should be longer than the height of the object to clamp. The other screw goes through the slot into the breadboard to clamp the component in place. 
+	Components are screwed directly to the breadboard using 1/4"-20 cap head screws or with strap clamps. These clamps are laser cut from 1/4" acrylic, but any reasonably stiff material will also work.  One screw threads in the hole; this screw should be longer than the height of the object to clamp. The other screw goes through the slot into the breadboard to clamp the component in place. 
 
 - Cuvette 
 
@@ -235,7 +235,7 @@ and the cannon lens makes the light sheet
 
 - Protocol 
 
-	Balsa wood sheets 3/32" (~2 mm) thick (4" wide x 36" long) were purchased from the typical display rack at a local art supply store. Pieces ~1 cm x 2 cm were cut from this stock. The pieces were cleared in a 1% sodium chlorite solution in 10% acetic acid at 80 deg C overnight. This bleached the wood from natural to white in color. Bleached pieces were dehydrated and delipidated in 40% ethanol, 99% isopropanol, and acetone for 1-24 hrs each step. These pieces were carried through attempts at index matching with glycerol (wrong index), [tung oil](https://github.com/PRNicovich/cheesoSPIM/blob/main/output/tungOil.jpg) (fluorescent), and anisole (close but sub-optimal). Benzyl alcohol produced pieces the most optically clear of any the fluids tested after a couple hours of immersion in this fluid. All pieces were immersed in benzyl alcohol to clear and imaged in this fluid. Specimens were mounted using UV-activated adhesive (EDSRDXS UV bonding glue) directly to the shaft of the theta motor. 
+	Balsa wood sheets 3/32" (~2 mm) thick (4" wide x 36" long) were purchased from the typical display rack at a local art supply store. Pieces ~1 cm x 2 cm were cut from this stock. The pieces were cleared in a 1% sodium chlorite solution in 10% vinegar at 80 deg C overnight. This bleached the wood from natural to white in color. Bleached pieces were dehydrated and delipidated in 40% ethanol, 99% isopropanol, and acetone for 1-24 hrs each step. These pieces were carried through attempts at index matching with glycerol (wrong index), [tung oil](https://github.com/PRNicovich/cheesoSPIM/blob/main/output/tungOil.jpg) (fluorescent), and anisole (close but sub-optimal). Benzyl alcohol produced pieces the most optically clear of any the fluids tested after a couple hours of immersion in this fluid. All pieces were immersed in benzyl alcohol to clear and imaged in this fluid. Specimens were mounted using UV-activated adhesive (EDSRDXS UV bonding glue) directly to the shaft of the theta motor. 
 
 - Remarks
 
