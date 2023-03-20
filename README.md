@@ -350,7 +350,7 @@ Static images show pores (~250 µm diameter) and tool marks from the milling saw
 <p>
 	<img src="https://github.com/PRNicovich/cheesoSPIM/blob/main/output/zoomThrough.gif" width="450">
 	<br>
-	<em>Z stack of cleared balsa wood imaged on the cheesoSPIM with manual Z axis drive. Specimen is at a slight angle to the left as one moves deeper into the specimen. Sheet is incident from the left of the image. Defocus on right of specimen is largely due to difficulty of imaging through specimen thickness. Inclusions at ~1/3 from top and singular inclusion at similar position near bottom are due to air remaining in the balsa wood pores.</em>
+	<em>Z stack of cleared balsa wood imaged on the cheesoSPIM with manual Z axis drive. Specimen is at a slight angle to the left as one moves deeper into the specimen. Sheet is incident from the left of the image. Defocus on right of specimen is largely due to difficulty of imaging through specimen thickness. Inclusions at ~1/3 from top and singular inclusion at similar position near bottom are due to air remaining in the balsa wood pores. These same inclusions are visible in the 'cleared wood on uncleared wood' pic above.</em>
 </p>
 
 
@@ -368,7 +368,7 @@ Static images show pores (~250 µm diameter) and tool marks from the milling saw
 
 3. Theatrical dichroics 
 
-   A stacked pair of Industrial Green dichroics did a fine job blocking scatter from the 80 mW 450 nm laser beam. A green emission component from the laser was found in testing. This is a common issue with cheap blue diode lasers and is mitigated with an excitation filter. Thankfully the beam diameter at this point is small (<< 5 mm) so the required excitation filter is not expensive. In total all three filters, including the pair of 1.95" emission filters was under $100, shipped. For applications requiring a large dichroic and loose spectral tolerances these theatrical dichroic filters can produce excellent fluorescent images. 
+   Theatrical dichroics appear to be optimized for light throughput over high rejection or contrast.  Still, a stacked pair of Industrial Green dichroics did a fine job blocking scatter from the 80 mW 450 nm laser beam. A green emission component from the laser was found in testing. This is a common issue with cheap blue diode lasers and is mitigated with an excitation filter. Thankfully the beam diameter at this point is small (<< 5 mm) so the required excitation filter is not expensive. In total all three filters, including the pair of 1.95" emission filters was under $100, shipped. For applications requiring a large dichroic and loose spectral tolerances these theatrical dichroic filters can produce excellent fluorescent images. 
 
 4. Clearing protocol 
  
